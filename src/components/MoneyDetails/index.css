@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.each-details-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 7px;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: solid 1px #84cc16;
+  border-radius: 9px;
+  margin-right: 9px;
+}
+
+.income-container {
+  background-color: #cffafe;
+
+  border: solid 1px #06b6d4;
+  border-radius: 9px;
+  margin-right: 9px;
+}
+
+.expenses-container {
+  background-color: #ede9fe;
+
+  border: solid 1px #7c3aed;
+  border-radius: 9px;
+  margin-right: 9px;
+}

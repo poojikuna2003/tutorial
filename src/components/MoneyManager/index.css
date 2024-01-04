@@ -1,0 +1,49 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 23vh;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.transcations-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.transaction-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border: 1px #7e858e solid;
+  border-radius: 9px;
+}
+
+.table-header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #d7dfe9;
+}
